@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+/* ヘッダー */
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+
+.logo {
+  height: 70px;
+  float: left;
+}
+
+.nav-list{
+  float: right;
+}
+
+.nav-item {
+  float: left;
+  width: 120px;
+  line-height: 70px;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.nav-item a{
+  color: #FAFAFA;
+}
+/* メイン */
+
+#mv{
+  height: 650px;
+  width: 100%;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #FAFAFA;
+}
+
+.mv-title {
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.mv-body {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+/* ポートフォリオ */
+#portfolio {
+  text-align: center;
+  background-color: #eceff1;
+  color: #000000;
+}
+
+.port-title {
+  padding-top: 90px;
+  font-size: 32px;
+}
+
+.port-title::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.port-body {
+  padding: 30px 0;
+  font-size: 16px;
+}
+
+.img-box{
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.image {
+  float: left;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.image:nth-child(-n+3){
+  margin-top: 0;
+}
+
+.image:nth-child(3n){
+  margin-right: 0;
+}
+
+.img1{
+  background-image: url(img/sketch.jpg);
+  width: 300px;
+  height: 250px;
+}
+
+.img2{
+  background-image: url(img/websuku.png);
+  width: 300px;
+  height: 250px;
+}
+
+.img3{
+  background-image: url(img/write.jpg);
+  width: 300px;
+  height: 250px;
+}
+
+.img4{
+  background-image: url(img/webcamp.png);
+  width: 300px;
+  height: 250px;
+}
+
+.img5{
+  background-image: url(img/talk.jpg);
+  width: 300px;
+  height: 250px;
+}
+
+.img6{
+  background-image: url(img/webcamp-mother.png);
+  width: 300px;
+  height: 250px;
+}
+
+/* フューチャー */
+#feature {
+  color: #000000;
+}
+
+.f-title {
+  text-align: center;
+  padding-top: 90px;
+  font-size: 32px;
+}
+
+.f-title::after{
+  content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.f-body {
+  padding: 30px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.f-box {
+  width: 980px;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.f-b-child {
+  float: left;
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.f-b-child:nth-child(3n){
+  margin-right: 0;
+}
+
+.f-b-title{
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.f-b-body{
+  font-size: 16px;
+}
+
+.f-b-child i {
+  font-size: 60px;
+}
+/* プロフィール */
+#profile {
+  width: 100%;
+  background-color: #eceff1;
+  color: #000000;
+}
+
+.p-title{
+  text-align: center;
+  padding-top: 90px;
+  font-size: 32px;
+}
+
+.p-title::after{
+  content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
+.p-body {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.pro-box{
+  width: 1024px;
+  height: 250px;
+  margin-bottom: 90px;
+}
+.pro-icon {
+  width: 512px;
+  height: 250px;
+  float: left;
+}
+.my-icon{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+}
+
+.pro-title{
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.pro-body{
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+
+.pro-s-title{
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.pro-s-body{
+  text-align: left;
+  font-size: 16px;
+}
+/* コンタクト */
+#contact{
+  color: #000000;
+}
+.c-title{
+  text-align: center;
+  padding-top: 90x;
+  font-size: 32px;
+}
+.c-title::after{
+  content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+.c-body{
+  padding: 30px 0;
+  font-size: 16px;
+}
+.contact-group{
+	width: 800px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
+}
+
+.left-content {
+  width: 50%;
+  float: left;
+}
+
+.left-contact-content{
+	width: 130px;
+	margin: 0 auto;
+}
+
+.link-text{
+	text-decoration: underline;
+	color: #212121;
+}
+
+.right-contact-content{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.right-contact-content i {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+.right-contact-content .fa:last-child {
+	margin-right: 0;
+}
+
+.right-content {
+  width: 50%;
+  float: right;
+}
